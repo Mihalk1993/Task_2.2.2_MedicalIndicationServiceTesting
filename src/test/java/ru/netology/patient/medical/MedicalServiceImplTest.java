@@ -1,4 +1,4 @@
-package ru.netology.patient;
+package ru.netology.patient.medical;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -9,7 +9,6 @@ import ru.netology.patient.entity.HealthInfo;
 import ru.netology.patient.entity.PatientInfo;
 import ru.netology.patient.repository.PatientInfoRepository;
 import ru.netology.patient.service.alert.SendAlertService;
-import ru.netology.patient.service.alert.SendAlertServiceImpl;
 import ru.netology.patient.service.medical.MedicalService;
 import ru.netology.patient.service.medical.MedicalServiceImpl;
 
@@ -19,7 +18,7 @@ import java.time.LocalDate;
 import static org.mockito.Mockito.*;
 
 
-public class AllTests {
+public class MedicalServiceImplTest {
 
     /*
     Timur Anvartdinov, [12.04.2022 14:11]
